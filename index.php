@@ -20,7 +20,7 @@
                 echo 'error';
             } else {
                 while ($reg=$busca->fetch_object()){
-                    echo "<tr><td><a href='p1.php?i=$reg->id'><img src='$reg->imagem' width='120'></a></td><td>$reg->nome</td></tr>";
+                    echo "<tr><td><a href='pagina-console.php?i=$reg->id'><img src='$reg->imagem' width='120'></a></td><td>$reg->nome</td></tr>";
                 }
             }
         }
